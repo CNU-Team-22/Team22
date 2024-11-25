@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>flexbox</title>
+        <style>
+            .item{
+                width:80px; height:80px;
+                background: orange;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            /*flexbox란 박스 내 요소 간의 공간 배분과 정렬 기능을 제공하기 위한 1차원 레이아웃 모델이다
+            flex-direction 속성은 배치할 때 주축 및 방향을 지정한다. (row,row-reverse,column,column-reverse)
+            justify-content는 주축에서 배치 방법 정의 
+            align-tiems는 교차축에서의 배치 방법 정의
+            align-self는 개별 요소의 교차축 배치 방법 정의
+            flex-wrap은 개별 요소들의 도합 크기가 컨테이너 주축 길이보다 클 때 처리 방법 및 방향을 정의*/
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </body>
+</html>

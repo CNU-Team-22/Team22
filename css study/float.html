@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>float</title>
+        <style>
+            #a{ width:100px; height:50px;
+            background-color:orange;
+            float: right;}
+            #b{ width:100px; height:100px;
+            background-color: royalblue;
+            float: left;}
+            p{ clear: both;}
+            /* float 속성은 요소가 자신을 포함하고 있는 컨테이너의 왼쪽이나 오른 쪽에 배치되게 한다.
+            clear 속성은 float 요소 이후 표시되는 요소가 float 요소의 아래로 내려가게 할 수 있다 */
+        </style>
+    </head>
+    <body>
+        <div id="a"></div>
+        <div id="b"></div>
+        <p>안녕하세요 저는 첫 번째 문장이에요</p>
+        <p>안녕하세요 저는 두 번째 문장이에요</p>
+        <p>안녕하세요 저는 세 번째 문장이에요</p>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>디스플레이와 보더</title>
+        <style>
+            div{ border: 1px solid red;
+                 display: inline;}
+            .boom{ 
+                border-width: 5px;
+                border-style: dashed;
+                border-color: blue;
+                display: block;
+            }
+            /* display 속성은 블록 레벨, 인라인 여부 변경 가능 (inline,block,none,inline-block)
+               border 속성은 요소가 차지하는 영역에 테두리를 그릴 수 있다 */
+        </style>
+    </head>
+    <body>
+        <div>블록 레벨 문장</div>
+        <span class="boom">인라인 문장</span>
+    </body>
+</html>
