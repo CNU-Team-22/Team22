@@ -15,3 +15,5 @@ class Memo {
     return "id : $id, name : $name, content : $content";
   }
 }
+
+// 이 주석은 피시방에서 추가한 주석입니다~ 잘 되는데??
